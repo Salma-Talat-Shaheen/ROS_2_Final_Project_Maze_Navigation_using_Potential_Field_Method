@@ -126,6 +126,6 @@ source install/setup.bash
 ros2 run maze_navigation_finalProject_1 hybrid_planner --ros-args -p maze_type:=complex
 ```
 
-**Future work** will focus on integrating **SLAM (Simultaneous Localization and Mapping)** for dynamic map generation and extending the navigation capabilities to include multi-robot coordination. Furthermore, we aim to deploy the developed algorithm onto physical TurtleBot 4 hardware to validate its real-world navigation performance and robustness. 
+**Future work** will focus on integrating **SLAM (Simultaneous Localization and Mapping)** for dynamic map generation and extending the navigation capabilities to include multi-robot coordination. Furthermore, we aim to deploy the developed algorithm onto physical TurtleBot 4 hardware to validate its real-world navigation performance and robustness..
 
 ---
