@@ -1,5 +1,5 @@
 
-# ROS 2 Final Project: Maze Navigation using Potential Field Method - TurtleBot 4 
+## **ROS 2 Final Project: Maze Navigation using Potential Field Method - TurtleBot 4** 
 <p align="center">
   <img src="https://github.com/Salma-Talat-Shaheen/ROS_2_Final_Project_Maze_Navigation_using_Potential_Field_Method/blob/main/assets/turtlebot4.png?raw=true" width="500" />
 </p>
