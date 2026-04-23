@@ -66,16 +66,22 @@ source install/setup.bash
 #### Step 2: Launch Simple Maze
 ```bash
 # Terminal 1: Launch Sim
+source /opt/ros/jazzy/setup.bash
 ros2 launch maze_navigation_finalProject_1 maze_sim.launch.py world:=simple_maze.world
 # Terminal 2: Run Planner
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
 ros2 run maze_navigation_finalProject_1 hybrid_planner --ros-args -p goal_x:=9.0 -p goal_y:=9.0
 ```
 
 #### Step 3: Launch Complex Maze (Bonus)
 ```bash
 # Terminal 1: Launch Sim
+source /opt/ros/jazzy/setup.bash
 ros2 launch maze_navigation_finalProject_1 maze_sim.launch.py world:=complex_maze.world
 # Terminal 2: Run Planner
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
 ros2 run maze_navigation_finalProject_1 hybrid_planner --ros-args -p goal_x:=11.4 -p goal_y:=11.4
 ```
 
