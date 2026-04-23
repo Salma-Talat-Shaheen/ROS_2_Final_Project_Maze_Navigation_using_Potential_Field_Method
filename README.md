@@ -122,8 +122,6 @@ source install/setup.bash
 ros2 run maze_navigation_finalProject_1 hybrid_planner --ros-args -p goal_x:=11.4 -p goal_y:=11.4
 ```
 
----
-
 Future work will focus on integrating **SLAM (Simultaneous Localization and Mapping)** for dynamic map generation and extending the navigation capabilities to include multi-robot coordination. Furthermore, we aim to deploy the developed algorithm onto physical TurtleBot 4 hardware to validate its real-world navigation performance and robustness. 
 
 ---
